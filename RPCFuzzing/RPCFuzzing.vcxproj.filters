@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\RPC Structures">
+      <UniqueIdentifier>{b130a667-853e-458c-88fc-c6ba8b296155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RPC Structures">
+      <UniqueIdentifier>{849330bc-8d93-4310-9d30-96493977e2ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dump\Dump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OSF_BINDING_HANDLE\OSF_BINDING_HANDLE.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="OSF_CCALL\OSF_CCALL.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="OSF_CCONNECTION\OSF_CCONNECTION.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="RPC_INTERFACE\RPC_INTERFACE.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="RPC_MESSAGE\RPC_MESSAGE.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="rpcconn_common\rpcconn_common.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Ndr\Ndr.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="RPC_SYNTAX_IDENTIFIER\RPC_SYNTAX_IDENTIFIER.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="MIDL_INFORMATION\MIDL_INFORMATION.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="GUID\GUID.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="RPC_VERSION\RPC_VERSION.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="RPC_DISPATCH_TABLE\RPC_DISPATCH_TABLE.cpp">
+      <Filter>Source Files\RPC Structures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump\Dump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OSF_BINDING_HANDLE\OSF_BINDING_HANDLE.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="OSF_CCALL\OSF_CCALL.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="OSF_CCONNECTION\OSF_CCONNECTION.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="RPC_INTERFACE\RPC_INTERFACE.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="RPC_MESSAGE\RPC_MESSAGE.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="rpcconn_common\rpcconn_common.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Ndr\Ndr.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="RPC_SYNTAX_IDENTIFIER\RPC_SYNTAX_IDENTIFIER.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="MIDL_INFORMATION\MIDL_INFORMATION.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="GUID\GUID.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="RPC_VERSION\RPC_VERSION.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="RPC_DISPATCH_TABLE\RPC_DISPATCH_TABLE.h">
+      <Filter>Header Files\RPC Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
